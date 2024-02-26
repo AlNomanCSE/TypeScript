@@ -23,8 +23,9 @@ function add(a: number, b: number): number {
 
 console.log(add(12, 12));
 
-const Add = (a: number, b: number): number => {
-    return 1235;
-}
 
-console.log(Add(12, 13));
+
+let value: unknown = add(12, 13);
+let valueINnumber: number = value as number;
+console.log(valueINnumber.toString());
+

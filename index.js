@@ -12,7 +12,6 @@ function add(a, b) {
     return a + b;
 }
 console.log(add(12, 12));
-const Add = (a, b) => {
-    return 1235;
-};
-console.log(Add(12, 13));
+let value = add(12, 13);
+let valueINnumber = value;
+console.log(valueINnumber.toString());
