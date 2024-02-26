@@ -9,3 +9,22 @@ const studen: {
 
 studen.name = "Nikmasn";
 console.log(studen.name);
+
+
+function hello(): void {
+    console.log("hello");
+
+}
+hello();
+
+function add(a: number, b: number): number {
+    return a + b;
+}
+
+console.log(add(12, 12));
+
+const Add = (a: number, b: number): number => {
+    return 1235;
+}
+
+console.log(Add(12, 13));
